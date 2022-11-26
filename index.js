@@ -1,7 +1,7 @@
 while(true) {
     let numberToGuess = Math.floor(Math.random() * 1000);
 
-    const numberFromUser = prompt('Введите целое число от 0 до 999. Выход: q');
+    let numberFromUser = prompt('Введите целое число от 0 до 999. Выход: q');
 
     if (numberFromUser === 'q') {
         alert('Спасибо за игру!');
