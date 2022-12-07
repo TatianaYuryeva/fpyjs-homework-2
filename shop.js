@@ -66,7 +66,6 @@ function delAllGood() {
     basket.splice(0, basket.length)
 }
 
-console.log(goods[basket[0].good].price)
 function getTotalBasket(basket, goods) {
     totalAmount = 0
     totalSumm = 0
