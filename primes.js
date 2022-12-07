@@ -14,4 +14,4 @@ function getPrimeNumbers(n) {
     return numbers
 }
 
-console.log(getPrimeNumbers(process.argv[2]))
+console.log(getPrimeNumbers(20))
